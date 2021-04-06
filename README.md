@@ -5,7 +5,7 @@ This project consists of two parts. The aim of the first part is to configure, d
 
 ## Architectural Diagram
 
-![](Images/architecture.PNG)
+![](images/architecture.PNG)
 
 Part 1 - Azure ML Studio
 1. Checking if the dataset is registered in the Azure workspace for the Automated ML Experiment
@@ -37,13 +37,13 @@ Authentication is required to ensure uninterrupted flow of operations. This step
 The experiment iteratively produces different ML models and determines the best one, which in this case was found to the VotingEnsemble model.
 
 Step 2.1 The Registered Bankmarketing Dataset
-![](Images/registered_dataset.PNG)
+![](images/registered_dataset.PNG)
 
 Step 2.2 The Completed Experiment
-![](Images/completed_experiment.PNG)
+![](images/completed_experiment.PNG)
 
 Step 2.3 The Best Model
-![](Images/best_model.PNG)
+![](images/best_model.PNG)
 
 ## Step 3: Deployment of the Best Model
 Now we published the model so that it can be consumed by others.
@@ -52,52 +52,52 @@ Now we published the model so that it can be consumed by others.
 Once the model is deployed Application Insights was enabled and logs were retireved locally. Application Insightsis is an Azure service that provides key performance information about the deployed service.
 
 Step 4.1 Enabled Applications Insights
-![](Images/application_insights_enabled.PNG)
+![](images/application_insights_enabled.PNG)
 
 Step 4.2 Running the logs.py Script
-![](Images/logs_py.PNG)
+![](images/logs_py.PNG)
 
 ## Step 5: Swagger Documentation
 Swagger makes documentation easier by describing the API, what requests it accepts, inputs and endpoints  
 
 Step 5.1 Swagger Running on Localhost
-![](Images/swagger.PNG)
+![](images/swagger.PNG)
 
 Step 5.2 Swagger - HTTP API Methods and Responses
-![](Images/swagger1.PNG)
+![](images/swagger1.PNG)
 
 Step 5.3 Swagger - HTTP API Methods and Responses (cont'd)
-![](Images/swagger2.PNG)
+![](images/swagger2.PNG)
 
 Step 5.4 Swagger - HTTP API Methods and Responses (cont'd)
-![](Images/swagger3.PNG)
+![](images/swagger3.PNG)
 
 ## Step 6: Consuming Model Endpoints
 The REST endpoint is consumed to interact with the trained model via requests.
 
 Step 6.1 endpoint.py Producing JSON Output
-![](Images/endpoint_output.PNG)
+![](images/endpoint_output.PNG)
 
 ## Step 7: Creating and Publishing a Pipeline
 An ML pipeline was created with AutoML, the experiment was run and the pipeline published. Once the pipeline is published, others can consume the REST endpoint to rerun the pipeline from any HTTP library on any platform.
 
 Step 7.1 Creation of the Pipeline
-![](Images/pipeline_created.PNG)
+![](images/pipeline_created.PNG)
 
 Step 7.2 Published Pipeline under the Pipeline Endpoint Tab
-![](Images/pipeline_published.PNG)
+![](images/pipeline_published.PNG)
 
 Step 7.3 The Bankmarketing Dataset with the AutoML Module
-![](Images/bankmarketing_automl.PNG)
+![](images/bankmarketing_automl.PNG)
 
 Step 7.4 The Published Pipeline Overview Including Active Satatus and REST Endpoint 
-![](Images/published_pipeline_overview.PNG)
+![](images/published_pipeline_overview.PNG)
 
 Step 7.5 RunDetails Widget Showing Step Runs 
-![](Images/run_details.PNG)
+![](images/run_details.PNG)
 
 Step 7.6 Scheduled and Running Pipeline 
-![](Images/running_pipeline.PNG)
+![](images/running_pipeline.PNG)
 
 ## Step 8: Documentation 
 A screencast was made showing the entire process of the working ML application, which can be accessed here.
@@ -106,5 +106,5 @@ A screencast was made showing the entire process of the working ML application, 
 For better predictive ability of a model, some improvements that can be made are  - 
 1. The class imbalance that was detected during the model training can be mitigated by experimenting with other metrics suitable for the problem such as F1 score.
 2. Models used during the Automated ML Experiment can be managed to allow only the ones we think will be effective. 
-3. 3. k-fold cross validation can be performed so that a model gets a better generalisation ability. 
+3. k-fold cross validation can be performed so that a model gets a better generalisation ability. 
 4. Feature selection and feature engineering can, too, improve the performance. 
