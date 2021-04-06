@@ -5,7 +5,7 @@ This project consists of two parts. The aim of the first part is to configure, d
 
 ## Architectural Diagram
 
-![](images/architecture.PNG)
+![](images/architecture.png)
 
 Part 1 - Azure ML Studio
 1. Checking if the dataset is registered in the Azure workspace for the Automated ML Experiment
@@ -37,13 +37,13 @@ Authentication is required to ensure uninterrupted flow of operations. This step
 The experiment iteratively produces different ML models and determines the best one, which in this case was found to the VotingEnsemble model.
 
 Step 2.1 The Registered Bankmarketing Dataset
-![](images/registered_dataset.PNG)
+![](images/registered_dataset.png)
 
 Step 2.2 The Completed Experiment
-![](images/completed_experiment.PNG)
+![](images/completed_experiment.png)
 
 Step 2.3 The Best Model
-![](images/best_model.PNG)
+![](images/best_model.png)
 
 ## Step 3: Deployment of the Best Model
 Now we published the model so that it can be consumed by others.
@@ -52,52 +52,52 @@ Now we published the model so that it can be consumed by others.
 Once the model is deployed Application Insights was enabled and logs were retireved locally. Application Insightsis is an Azure service that provides key performance information about the deployed service.
 
 Step 4.1 Enabled Applications Insights
-![](images/application_insights_enabled.PNG)
+![](images/application_insights_enabled.png)
 
 Step 4.2 Running the logs.py Script
-![](images/logs_py.PNG)
+![](images/logs_py.png)
 
 ## Step 5: Swagger Documentation
 Swagger makes documentation easier by describing the API, what requests it accepts, inputs and endpoints  
 
 Step 5.1 Swagger Running on Localhost
-![](images/swagger.PNG)
+![](images/swagger.png)
 
 Step 5.2 Swagger - HTTP API Methods and Responses
-![](images/swagger1.PNG)
+![](images/swagger1.png)
 
 Step 5.3 Swagger - HTTP API Methods and Responses (cont'd)
-![](images/swagger2.PNG)
+![](images/swagger2.png)
 
 Step 5.4 Swagger - HTTP API Methods and Responses (cont'd)
-![](images/swagger3.PNG)
+![](images/swagger3.png)
 
 ## Step 6: Consuming Model Endpoints
 The REST endpoint is consumed to interact with the trained model via requests.
 
 Step 6.1 endpoint.py Producing JSON Output
-![](images/endpoint_output.PNG)
+![](images/endpoint_output.png)
 
 ## Step 7: Creating and Publishing a Pipeline
 An ML pipeline was created with AutoML, the experiment was run and the pipeline published. Once the pipeline is published, others can consume the REST endpoint to rerun the pipeline from any HTTP library on any platform.
 
 Step 7.1 Creation of the Pipeline
-![](images/pipeline_created.PNG)
+![](images/pipeline_created.png)
 
 Step 7.2 Published Pipeline under the Pipeline Endpoint Tab
-![](images/pipeline_published.PNG)
+![](images/pipeline_published.png)
 
 Step 7.3 The Bankmarketing Dataset with the AutoML Module
-![](images/bankmarketing_automl.PNG)
+![](images/bankmarketing_automl.png)
 
 Step 7.4 The Published Pipeline Overview Including Active Satatus and REST Endpoint 
-![](images/published_pipeline_overview.PNG)
+![](images/published_pipeline_overview.png)
 
 Step 7.5 RunDetails Widget Showing Step Runs 
-![](images/run_details.PNG)
+![](images/run_details.png)
 
 Step 7.6 Scheduled and Running Pipeline 
-![](images/running_pipeline.PNG)
+![](images/running_pipeline.png)
 
 ## Step 8: Documentation 
 A screencast was made showing the entire process of the working ML application, which can be accessed here.
