@@ -101,7 +101,7 @@ Step 7.6 Scheduled and Running Pipeline
 
 ## Step 8: Documentation 
 A screencast was made showing the entire process of the working ML application, which can be accessed [here](https://drive.google.com/file/d/1-uuLu4oNK_hwBJg07afOvqMfRUPibxfZ/view?usp=sharing).
-<br>Resubmission Note<br> - The points missed have been explained and depicted, the additional video can be found [here](https://drive.google.com/file/d/1VPfgRjH4DW8HaeXXBl8-5Nqwz2TCkHri/view?usp=sharing)
+<b>Resubmission Note<b> - The points missed have been explained and depicted, and the additional video can be found [here](https://drive.google.com/file/d/1VPfgRjH4DW8HaeXXBl8-5Nqwz2TCkHri/view?usp=sharing).
 
 ## Future Work
 For better predictive ability of a model, some improvements that can be made are  - 
