@@ -46,10 +46,10 @@ Step 2.3 The Best Model
 ![](images/best_model.png)
 
 ## Step 3: Deployment of the Best Model
-Now we published the model so that it can be consumed by others.
+The model was published so that it can be consumed by others.
 
 ## Step 4: Enabling Application Insights and Logging 
-Once the model is deployed Application Insights was enabled and logs were retireved locally. Application Insightsis is an Azure service that provides key performance information about the deployed service.
+Once the model was deployed, Application Insights was enabled and logs were retireved locally. Application Insights is an Azure service that provides key performance information about the deployed service.
 
 Step 4.1 Enabled Applications Insights
 ![](images/application_insights_enabled.png)
@@ -58,7 +58,7 @@ Step 4.2 Running the logs.py Script
 ![](images/logs_py.png)
 
 ## Step 5: Swagger Documentation
-Swagger makes documentation easier by describing the API, what requests it accepts, inputs and endpoints  
+Swagger makes documentation easier by describing the API, what requests it accepts, inputs and endpoints.
 
 Step 5.1 Swagger Running on Localhost
 ![](images/swagger.png)
@@ -100,9 +100,9 @@ Step 7.6 Scheduled and Running Pipeline
 ![](images/running_pipeline.png)
 
 ## Step 8: Documentation 
-A screencast was made showing the entire process of the working ML application, which can be accessed here.
+A screencast was made showing the entire process of the working ML application, which can be accessed [here](https://drive.google.com/file/d/1-uuLu4oNK_hwBJg07afOvqMfRUPibxfZ/view?usp=sharing).
 
-## Future Works
+## Future Work
 For better predictive ability of a model, some improvements that can be made are  - 
 1. The class imbalance that was detected during the model training can be mitigated by experimenting with other metrics suitable for the problem such as F1 score.
 2. Models used during the Automated ML Experiment can be managed to allow only the ones we think will be effective. 
