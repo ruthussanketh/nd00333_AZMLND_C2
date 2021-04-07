@@ -1,4 +1,4 @@
-# Operationalising Machine Learning
+# Operationalizing Machine Learning
 
 ## Overview
 This project consists of two parts. The aim of the first part is to configure, deploy and consume an ML production model using Azure. The aim of the second part is to create, publish and consume a pipeline. The Bank Marketing dataset is used to train the models in the first and the second parts. The model and the pipeline will both be deployed to their REST endpoints. After deployment, other systems can interact with the deployed services by sending HTTP requests to their endpoints. 
