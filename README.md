@@ -99,10 +99,6 @@ Step 7.5 RunDetails Widget Showing Step Runs
 Step 7.6 Scheduled and Running Pipeline 
 ![](images/running_pipeline.png)
 
-## Step 8: Documentation 
-A screencast was made showing the entire process of the working ML application, which can be accessed [here](https://drive.google.com/file/d/1-uuLu4oNK_hwBJg07afOvqMfRUPibxfZ/view?usp=sharing).
-<br>Resubmission Note - The points missed have been explained and depicted, and the additional video can be found [here](https://drive.google.com/file/d/1VPfgRjH4DW8HaeXXBl8-5Nqwz2TCkHri/view?usp=sharing).
-
 ## Future Work
 For better predictive ability of a model, some improvements that can be made are  - 
 1. The class imbalance that was detected during the model training can be mitigated by experimenting with other metrics suitable for the problem such as F1 score.
